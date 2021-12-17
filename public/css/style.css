@@ -29,11 +29,15 @@ html{
 }
 section{
     padding: 3rem 9%;
+    margin-top: 10rem;
 }
 
 /* Start header section  */
 
 .header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
     padding: 3rem 9%;
     display: flex;
     align-items: center;
@@ -128,8 +132,55 @@ section{
 .container .container-right img{
     width: 100%;
 }
-
-
+.tools{
+    text-align: center;
+    margin:  4rem 0;    
+}
+.tools h1{
+    font-size: 2.3rem;
+    margin: 4rem 0;
+    margin: 0 auto;
+    font-weight: 800;
+}
+.tool-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;    
+}
+.tool-box .box{
+    flex: 1 1 15rem;
+    text-align: center;    
+}
+.tool-box .box .color{
+    width: 40px; height: 40px;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 2rem; 
+}
+.purple{
+    background: var(--site-color);
+}
+.orange{
+    background: #fab005;
+}
+.red{
+    background: #f03e3d;
+}
+.blue{
+    background: #4dadf7;
+}
+.tool-box .box .title{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+.tool-box .box .text{
+    font-size: 1.3rem;
+}
 
 
 

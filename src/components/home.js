@@ -56,6 +56,34 @@ const Home =()=>{
                     </div>
                 </div>
 
+                <div className="tools">
+                    <h1>We design tools to unveil <br/> your superpowers</h1>
+                </div>
+
+                <div className="tool-box">
+                    <div className="box">
+                        <center><div className="color purple"> <span className="fa fa-compass"></span></div></center>
+                        <span className="title">First click tests</span>
+                        <p className="text">While most people enjoy casino gambling</p>
+                    </div>
+                    <div className="box">
+                        <center><div className="color orange"> <span className="fa fa-location-arrow"></span></div></center>
+                        <span className="title">Design surveys</span>
+                        <p className="text">Sports betting, lottery and bingo playing for the fun</p>
+                    </div>
+                    <div className="box">
+                        <center><div className="color red"> <span className="fa fa-pen-alt"></span></div></center>
+                        <span className="title">Preference tests</span>
+                        <p className="text">The Myspace page defines the individual.</p>
+                    </div>
+                    <div className="box">
+                        <center><div className="color blue"> <span className="fa fa-clock"></span></div></center>
+                        <span className="title">Five second tests</span>
+                        <p className="text">Personal choices and the overall personality of the person. </p>
+                    </div>
+
+                </div>
+
             </section>
 
       
