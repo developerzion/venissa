@@ -2,7 +2,7 @@
 
 
 :root{
-    --orange-color: #ff9900;
+    --site-color: #6aaad5;
     --default-color: #2f281e;
 }
 
@@ -50,6 +50,7 @@ section{
 }
 .header .logo a img{
     margin-right: .5rem;
+    width: 40px;
 }
 .header .logo a:hover img{
     transform: rotate(360deg);
@@ -62,7 +63,7 @@ section{
 }
 .header .navbar a:hover{
     font-size: 1.5rem;
-    color: var(--orange-color);
+    color: var(--site-color);
 }
 .header .navbar.active{
     left: 0;
@@ -74,7 +75,7 @@ section{
     border: 2px solid #cddbeb;
 }
 .header .navbar a:last-child{
-    background-color: var(--orange-color);
+    background-color: var(--site-color);
     color: #fff;
     padding: 1.2rem 2rem;
     border-radius: .5rem;
@@ -111,7 +112,7 @@ section{
     display: inline-block;
 }
 .container .container-left .container-footer .custom-button{
-    background: var(--orange-color);
+    background: var(--site-color);
     color: #fff;
     padding: 1.2rem 2rem;
     border-radius: .3rem;
@@ -119,7 +120,7 @@ section{
     font-weight: 500;
 }
 .container .container-left .container-footer .custom-text{
-    color: var(--orange-color);
+    color: var(--site-color);
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 2rem;
