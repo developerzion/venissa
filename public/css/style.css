@@ -240,12 +240,13 @@ html{
     height: 30rem;
     margin-top: -35rem;
 }
-/* .gradient-top{
+.gradient-top{
     background-image: linear-gradient(to top, rgba(0,0,0,0), #FFE5D2);
-    border-radius: 100% 100% 0 0;
-    height: 20rem;
-    margin-top: 6rem;
-} */
+    border-radius: 80% 80% 0 0 / 100% 100% 0 0;
+    height: 30rem;
+    margin-top: 10rem;
+    margin-bottom: -40rem;
+}
 .hero-container{
     margin-top: 6rem;
     text-align: center;
