@@ -32,7 +32,7 @@ const Home =()=>{
 
                 <div className="mobilenav">
                     <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="fa fa-bars"></span>
-                    <span className="fa fa-lock"></span>
+                    <span className="fa fa-user"></span>
                 </div>           
 
 
