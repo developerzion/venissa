@@ -110,7 +110,7 @@ html{
 
 /* Container section  */
 .container .container-left h1{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 800;
 }
 .container .container-left h4{
@@ -147,7 +147,7 @@ html{
 .tool-box{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;    
+    gap: 1.5rem;    
 }
 .tool-box .box{
     flex: 1 1 15rem;
