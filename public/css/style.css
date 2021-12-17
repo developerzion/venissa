@@ -2,7 +2,8 @@
 
 
 :root{
-    --site-color: #00c9f0;
+    --site-color: #359d9e;
+    /* #00c9f0; */
     /* #775298; */
     --default-color: #2f281e;
 }
@@ -126,7 +127,7 @@ html{
 
 /* Container section  */
 .container .container-left h1{
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 800;
 }
 .container .container-left h4{
@@ -192,7 +193,10 @@ html{
 }
 .tool-box .box{
     flex: 1 1 15rem;
-    text-align: center;    
+    text-align: center;   
+    background: #fff; 
+    padding: 2rem;
+    border-radius: 0  0 3rem 3rem;
 }
 .tool-box .box .color{
     width: 40px; height: 40px;
@@ -203,7 +207,7 @@ html{
     color: #fff;
     margin-bottom: 2rem; 
 }
-.purple{
+.default{
     background: var(--site-color);
 }
 .orange{
@@ -245,7 +249,7 @@ html{
     border-radius: 80% 80% 0 0 / 100% 100% 0 0;
     height: 30rem;
     margin-top: 10rem;
-    margin-bottom: -40rem;
+    margin-bottom: -30rem;
 }
 .hero-container{
     margin-top: 6rem;
@@ -255,16 +259,40 @@ html{
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
+#hero{
+    position: relative;
+}
 .hero-container p{
     font-size: 1.4rem;
-    color: var(--site-color);
+    color: #567592;
     margin-bottom: 3rem;
+    margin: 0 auto;
+    width: 80%;
+}
+#hero img{
+    width: 20%;
+    position: absolute;
+}
+#hero img.five{
+    left: 30rem;
+    top: 3rem;
+}
+#hero img.four{
+    right: 30rem;
+    top: 0rem;
 }
 
 
 
 
-@media (max-width: 1120px){
+
+
+.separate{
+    display: inline-block;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1223px){
     html{
         font-size: 58%;
     }

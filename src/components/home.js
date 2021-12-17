@@ -75,22 +75,22 @@ const Home =()=>{
                 
                 <div className="tool-box">
                     <div className="box">
-                        <center><div className="color purple"> <span className="fa fa-compass"></span></div></center>
+                        <center><div className="color default"> <span className="fa fa-compass"></span></div></center>
                         <span className="title">First click tests</span>
                         <p className="text">While most people enjoy casino gambling</p>
                     </div>
                     <div className="box">
-                        <center><div className="color orange"> <span className="fa fa-location-arrow"></span></div></center>
+                        <center><div className="color default"> <span className="fa fa-location-arrow"></span></div></center>
                         <span className="title">Design surveys</span>
                         <p className="text">Sports betting, lottery and bingo playing for the fun</p>
                     </div>
                     <div className="box">
-                        <center><div className="color red"> <span className="fa fa-pen-alt"></span></div></center>
+                        <center><div className="color default"> <span className="fa fa-pen-alt"></span></div></center>
                         <span className="title">Preference tests</span>
                         <p className="text">The Myspace page defines the individual.</p>
                     </div>
                     <div className="box">
-                        <center><div className="color blue"> <span className="fa fa-clock"></span></div></center>
+                        <center><div className="color default"> <span className="fa fa-clock"></span></div></center>
                         <span className="title">Five second tests</span>
                         <p className="text">Personal choices and the overall personality of the person. </p>
                     </div>
@@ -174,14 +174,20 @@ const Home =()=>{
             <div className="gradient-top"></div>
 
             <section id="hero" className="pad">
-
+                {/* <img className="five" src={five} alt="five"/>
+                <img className="four" src={four} alt="four"/> */}
+                
                 <div className="hero-container">
                     <h1>Need a super hero?</h1>
-                    <p>Do you require some help for your project: Conception workshop, prototyping,<br/> marketing strategy, landing page, Ux/UI?</p>
+                    <p>Do you require some help for your project: Conception workshop, <br/>prototyping, marketing strategy, landing page, Ux/UI?</p>
                     <div className="expert">
-                        <center><Link to="" className="custom-button">Contact our expert</Link></center>
+                        <center><Link to="" className="custom-button separate">Contact our expert</Link></center>
                     </div>
-                </div>                
+                </div>      
+
+                {/* <img src={three} alt="three"/>
+                <img src={two} alt="two"/>
+                <img src={one} alt="onw"/>           */}
 
             </section>
 
