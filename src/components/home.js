@@ -40,7 +40,7 @@ const Home =()=>{
 
             </div>
 
-            <section id="banner" className="banner">
+            <section id="banner" className="pad">
 
                 <div className="container bd-grid">
                     <div className="container-left">
@@ -54,12 +54,16 @@ const Home =()=>{
                     <div className="container-right">
                         <img src={banner} alt="Banenr" />
                     </div>
-                </div>
+                </div>                
 
+            </section>
+
+
+            <section id="grad" className="pad">
                 <div className="tools">
                     <h1>We design tools to unveil <br/> your superpowers</h1>
                 </div>
-
+                
                 <div className="tool-box">
                     <div className="box">
                         <center><div className="color purple"> <span className="fa fa-compass"></span></div></center>
@@ -86,9 +90,8 @@ const Home =()=>{
                 <div className="signupnow">
                     <center><Link to="" className="custom-button">SIGN UP NOW</Link></center>
                 </div>
-
-
             </section>
+                <div className="gradient"></div>
 
       
         </div>
