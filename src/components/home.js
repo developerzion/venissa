@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 import logo from "../images/logo.png"
 import banner from "../images/banner.jpg"
+import professional from "../images/professional.png"
+import product from "../images/product.png"
+import marketers from "../images/marketers.png"
+
 
 const Home =()=>{
 
@@ -91,7 +95,70 @@ const Home =()=>{
                     <center><Link to="" className="custom-button">SIGN UP NOW</Link></center>
                 </div>
             </section>
-                <div className="gradient"></div>
+            <div className="gradient"></div>
+
+            <section id="prof" className="pad">
+
+                <div className="container bd-grid">
+                    <div className="container-left myorder">
+                        <p>Effortless Validation for</p>
+                        <h1>Design Professionals</h1>
+                        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                        <h3>Accessory makers</h3>
+                        <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <h3>Alterationists</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        <h3>Custom Design designers</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                    </div>
+                    <div className="container-right">
+                        <img className="professional" src={professional} alt="Professional" />
+                    </div>
+                </div>                
+
+            </section>
+
+            <section id="banner" className="pad">
+
+                <div className="container bd-grid ">                    
+                    <div className="container-right">
+                        <img className="professional" src={product} alt="Professional" />
+                    </div>
+                    <div className="container-left">
+                        <p>Effortless Validation for</p>
+                        <h1>Design Professionals</h1>
+                        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                        <h3>Accessory makers</h3>
+                        <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <h3>Alterationists</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        <h3>Custom Design designers</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                    </div>
+                </div>                
+
+            </section>
+
+            <section id="marketers" className="pad">
+
+                <div className="container bd-grid">
+                    <div className="container-left myorder">
+                        <p>Effortless Validation for</p>
+                        <h1>Design Professionals</h1>
+                        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                        <h3>Accessory makers</h3>
+                        <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <h3>Alterationists</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        <h3>Custom Design designers</h3>
+                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                    </div>
+                    <div className="container-right">
+                        <img className="professional" src={marketers} alt="Professional" />
+                    </div>
+                </div>                
+
+            </section>
 
       
         </div>

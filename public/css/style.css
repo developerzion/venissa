@@ -28,6 +28,7 @@ html{
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     align-items: center;
 }
+
 .custom-button{
     background: var(--site-color);
     color: #fff;
@@ -118,6 +119,15 @@ html{
     font-weight: 400;
     margin: 1.5rem 0;
     line-height: 2.2rem;
+}
+.container .container-left h3{
+    font-size: 1.5rem;
+}
+.container .container-left p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    margin: 1rem 0;
+    font-weight: 400;
 }
 .container .container-left .container-footer{
     margin-top: 3rem;
@@ -211,6 +221,9 @@ html{
     }
 }
 @media (max-width: 922px){
+    .myorder{
+        order: 1;
+    }
     section{
         padding: 3rem 7%;
     }
