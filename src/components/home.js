@@ -56,7 +56,7 @@ const Home =()=>{
                         </div>
                     </div>
                     <div className="container-right">
-                        <img src={banner} alt="Banenr" />
+                        <img className="banner-image" src={banner} alt="Banenr" />
                     </div>
                 </div>                
 
@@ -112,28 +112,34 @@ const Home =()=>{
                         <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
                     </div>
                     <div className="container-right">
-                        <img className="professional" src={professional} alt="Professional" />
+                        <img className="trimimage" src={professional} alt="Professional" />
                     </div>
                 </div>                
 
             </section>
 
-            <section id="banner" className="pad">
+            <section id="product" className="pad">
 
                 <div className="container bd-grid ">                    
                     <div className="container-right">
-                        <img className="professional" src={product} alt="Professional" />
+                        <img className="trimimage" src={product} alt="Professional" />
                     </div>
                     <div className="container-left">
-                        <p>Effortless Validation for</p>
-                        <h1>Design Professionals</h1>
-                        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
-                        <h3>Accessory makers</h3>
-                        <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-                        <h3>Alterationists</h3>
-                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-                        <h3>Custom Design designers</h3>
-                        <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        <p>Easier decision making for</p>
+                        <h1>Product Managers</h1>
+                        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
+                        <div className="check-box">
+                            <div className="check"><span className="fa fa-check"></span></div>
+                            <p>Never worry about overpaying for your energy again. </p>
+                        </div>
+                        <div className="check-box">
+                            <div className="check"><span className="fa fa-check"></span></div>
+                            <p>We will only switch you to energy companies that we trust and will treat you right. </p>
+                        </div>
+                        <div className="check-box">
+                            <div className="check"><span className="fa fa-check"></span></div>
+                            <p>We track the markets daily and know where the savings are. </p>
+                        </div>
                     </div>
                 </div>                
 
@@ -154,7 +160,7 @@ const Home =()=>{
                         <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
                     </div>
                     <div className="container-right">
-                        <img className="professional" src={marketers} alt="Professional" />
+                        <img className="trimimage" src={marketers} alt="Professional" />
                     </div>
                 </div>                
 
