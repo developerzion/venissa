@@ -154,6 +154,7 @@ html{
     line-height: 40px;
     font-size: 2rem;
     border-radius: 1rem;
+    margin-right: 1rem;
 }
 .container .container-left .container-footer{
     margin-top: 3rem;
@@ -250,8 +251,8 @@ html{
     .myorder{
         order: 1;
     }
-    section{
-        padding: 3rem 7%;
+    .pad{
+        padding: 3rem 6%;
     }
     .header{
         padding: 2rem 4%;
