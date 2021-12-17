@@ -2,7 +2,8 @@
 
 
 :root{
-    --site-color: #775298;
+    --site-color: #00c9f0;
+    /* #775298; */
     --default-color: #2f281e;
 }
 
@@ -26,6 +27,14 @@ html{
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     align-items: center;
+}
+.custom-button{
+    background: var(--site-color);
+    color: #fff;
+    padding: 1.2rem 2rem;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 section{
     padding: 3rem 9%;
@@ -115,14 +124,7 @@ section{
     margin-bottom: 2rem;
     display: inline-block;
 }
-.container .container-left .container-footer .custom-button{
-    background: var(--site-color);
-    color: #fff;
-    padding: 1.2rem 2rem;
-    border-radius: .3rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
+
 .container .container-left .container-footer .custom-text{
     color: var(--site-color);
     font-size: 1.5rem;
@@ -145,7 +147,7 @@ section{
 .tool-box{
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;    
+    gap: 2rem;    
 }
 .tool-box .box{
     flex: 1 1 15rem;
@@ -180,6 +182,13 @@ section{
 }
 .tool-box .box .text{
     font-size: 1.3rem;
+}
+.signupnow{
+    display: inline-block;
+    margin: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

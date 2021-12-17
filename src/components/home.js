@@ -83,6 +83,10 @@ const Home =()=>{
                     </div>
 
                 </div>
+                <div className="signupnow">
+                    <center><Link to="" className="custom-button">SIGN UP NOW</Link></center>
+                </div>
+
 
             </section>
 
