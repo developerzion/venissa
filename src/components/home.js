@@ -31,7 +31,7 @@ const Home =()=>{
                 </div>  
 
                 <div className="mobilenav">
-                    <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); } } className="fa fa-bars"></span>
+                    <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="fa fa-bars"></span>
                     <span className="fa fa-lock"></span>
                 </div>           
 
