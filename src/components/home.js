@@ -6,6 +6,11 @@ import banner from "../images/banner.jpg"
 import professional from "../images/professional.png"
 import product from "../images/product.png"
 import marketers from "../images/marketers.png"
+// import one from "../images/1.png"
+// import two from "../images/2.png"
+// import three from "../images/3.png"
+// import four from "../images/4.png"
+// import five from "../images/5.png"
 
 
 const Home =()=>{
@@ -95,6 +100,7 @@ const Home =()=>{
                     <center><Link to="" className="custom-button">SIGN UP NOW</Link></center>
                 </div>
             </section>
+
             <div className="gradient"></div>
 
             <section id="prof" className="pad">
@@ -161,6 +167,19 @@ const Home =()=>{
                     </div>
                     <div className="container-right">
                         <img className="trimimage" src={marketers} alt="Professional" />
+                    </div>
+                </div>                
+
+            </section>
+            <div className="gradient-top"></div>
+
+            <section id="hero" className="pad">
+
+                <div className="hero-container">
+                    <h1>Need a super hero?</h1>
+                    <p>Do you require some help for your project: Conception workshop, prototyping,<br/> marketing strategy, landing page, Ux/UI?</p>
+                    <div className="expert">
+                        <center><Link to="" className="custom-button">Contact our expert</Link></center>
                     </div>
                 </div>                
 
