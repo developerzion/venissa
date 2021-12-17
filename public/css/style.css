@@ -2,7 +2,7 @@
 
 
 :root{
-    --site-color: #6aaad5;
+    --site-color: #ff9900;
     --default-color: #2f281e;
 }
 
@@ -172,3 +172,5 @@ section{
         display: none;
     }
 }
+
+
