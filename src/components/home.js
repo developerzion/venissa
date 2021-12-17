@@ -13,7 +13,7 @@ const Home =()=>{
                 <span className="logo">
                     <Link to="/">
                         <img src={logo} alt="Productly logo" />
-                        Productly
+                        Toolstack
                     </Link>
                 </span>
                 {/* End div logo  */}
