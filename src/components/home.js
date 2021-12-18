@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import logo from "../images/logo.png"
 // import banner from "../images/banner.jpg"
-import professional from "../images/professional.png"
+// import professional from "../images/professional.png"
 import product from "../images/product.png"
 import marketers from "../images/marketers.png"
 // import one from "../images/1.png"
