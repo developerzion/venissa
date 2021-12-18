@@ -181,9 +181,9 @@ html{
     border-radius: .3rem;
 
 }
-/* .container .container-right img{
+.container .container-right svg{
     width: 100%;
-} */
+}
 .tools{
     text-align: center;
     margin:  -6rem 0 4rem 0;    
