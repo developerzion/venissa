@@ -80,7 +80,7 @@ const Home =()=>{
                         <p className="text">While most people enjoy casino gambling</p>
                     </div>
                     <div className="box">
-                        <center><div className="color default"> <span className="fa fa-location-arrow"></span></div></center>
+                        <center><div className="color default"> <span className="fa fa-gamepad"></span></div></center>
                         <span className="title">Design surveys</span>
                         <p className="text">Sports betting, lottery and bingo playing for the fun</p>
                     </div>
