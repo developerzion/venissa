@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+import "animate.css/animate.min.css"; 
+// import ScrollAnimation from 'react-animate-on-scroll';
+
 
 import logo from "../images/logo.png"
 
@@ -39,7 +42,7 @@ const Home =()=>{
 
                 <div className="mobilenav">
                     <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="fa fa-bars"></span>
-                    <span className="fa fa-user"></span>
+                    <span className="fa fa-lock"></span>
                 </div>  
 
                 {/* End div menu  */}
@@ -197,6 +200,7 @@ const Home =()=>{
             <section id="grad" className="pad">
                 <div className="tools">
                     <h1>We design tools to unveil <br/> your superpowers</h1>
+                    
                 </div>
                 
                 <div className="tool-box">
@@ -244,8 +248,10 @@ const Home =()=>{
                         <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
                     </div>
                     <div className="container-right">
+                    
 
                         <svg viewBox="0 0 520 574" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        
                             <g id="Image">
                             <g id="oval">
                             <mask id="mask0_0_402" maskUnits="userSpaceOnUse" x="0" y="62" width="520" height="512">
@@ -296,6 +302,7 @@ const Home =()=>{
                             <path id="Fill 53" fillRule="evenodd" clipRule="evenodd" d="M47.705 25.325H116.395V22.825H47.705V25.325Z" fill="white"/>
                             <path id="Fill 54" fillRule="evenodd" clipRule="evenodd" d="M47.705 37.155H133.565V34.655H47.705V37.155Z" fill="white"/>
                             </g>
+                         
                             <g id="messageTwo" data-aos="fade-right">
                             <path id="Fill 55" fillRule="evenodd" clipRule="evenodd" d="M133.566 140.193H43.5705C39.4705 140.193 36.1505 143.518 36.1505 147.613V189.508C36.1505 193.608 39.4705 196.933 43.5705 196.933H50.7355L58.8155 207.728C60.6105 210.128 64.3805 209.413 65.1705 206.523L67.7905 196.933H133.566C137.666 196.933 140.986 193.608 140.986 189.508V147.613C140.986 143.518 137.666 140.193 133.566 140.193Z" fill="#FF4E4A"/>
                             <path id="Fill 56" fillRule="evenodd" clipRule="evenodd" d="M47.705 153.685H95.59V151.185H47.705V153.685Z" fill="white"/>
@@ -311,9 +318,11 @@ const Home =()=>{
                             <path id="Fill 64" fillRule="evenodd" clipRule="evenodd" d="M132.575 107.215H154.04V104.715H132.575V107.215Z" fill="white"/>
                             </g>
                             <path id="Fill 65" fillRule="evenodd" clipRule="evenodd" d="M293.439 276.82C274.324 276.82 258.769 292.375 258.769 311.49C258.769 330.61 274.324 346.165 293.439 346.165C312.559 346.165 328.114 330.61 328.114 311.49C328.114 292.375 312.559 276.82 293.439 276.82ZM293.439 348.665C272.944 348.665 256.269 331.99 256.269 311.49C256.269 290.995 272.944 274.32 293.439 274.32C313.939 274.32 330.614 290.995 330.614 311.49C330.614 331.99 313.939 348.665 293.439 348.665Z" fill="white"/>
+                            </g>                            
                             </g>
-                            </g>
+                            
                         </svg>
+                   
 
                     </div>
                 </div>                
@@ -407,15 +416,15 @@ const Home =()=>{
                         <h1>Product Managers</h1>
                         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
                         <div className="check-box">
-                            <div className="check"><span className="fa fa-check"></span></div>
+                            <div data-aos="fade-right" className="check"><span className="fa fa-check"></span></div>
                             <p>Never worry about overpaying for your energy again. </p>
                         </div>
                         <div className="check-box">
-                            <div className="check"><span className="fa fa-check"></span></div>
+                            <div data-aos="fade-right" className="check"><span className="fa fa-check"></span></div>
                             <p>We will only switch you to energy companies that we trust and will treat you right. </p>
                         </div>
                         <div className="check-box">
-                            <div className="check"><span className="fa fa-check"></span></div>
+                            <div data-aos="fade-right" className="check"><span className="fa fa-check"></span></div>
                             <p>We track the markets daily and know where the savings are. </p>
                         </div>
                     </div>
