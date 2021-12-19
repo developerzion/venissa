@@ -205,7 +205,7 @@ const Home =()=>{
                         <span className="title">First click tests</span>
                         <p className="text">While most people enjoy casino gambling</p>
                     </div>
-                    <div data-aos="fade-right" className="box red">
+                    <div data-aos="fade-left" className="box red">
                         <center><div className="color"> <span className="fa fa-coffee"></span></div></center>
                         <span className="title">Design surveys</span>
                         <p className="text">Sports betting, lottery and bingo playing for the fun</p>
@@ -215,7 +215,7 @@ const Home =()=>{
                         <span className="title">Preference tests</span>
                         <p className="text">The Myspace page defines the individual.</p>
                     </div>
-                    <div data-aos="fade-right" className="box blue">
+                    <div data-aos="fade-left" className="box blue">
                         <center><div className="color"> <span className="fa fa-grin"></span></div></center>
                         <span className="title">Five second tests</span>
                         <p className="text">Personal choices and the overall personality of the person. </p>
