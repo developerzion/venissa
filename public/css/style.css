@@ -17,10 +17,12 @@
     text-decoration: none;
     transition: all .2s linear;
     scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+
 }
 html{
     font-size: 70%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 }
 
@@ -197,22 +199,17 @@ html{
 .tool-box{
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
     gap: 1.5rem;    
 }
 .tool-box .box{
     flex: 1 1 20rem;
     text-align: center;   
-    /* background: #fff;  */
     padding: 3rem 2rem;
     border-radius: 1rem;
-    /* outline-offset: -1rem; */
-    /* outline: .2rem solid var(--site-color); */
     color: #fff;
 }
-.tool-box .box:hover{
-    outline-offset: 0rem;
-    /* outline: .1rem solid rgba(0, 0, 0, .1); */
-}
+
 .tool-box .box .color{
     width: 40px; height: 40px;
     border-radius: 1rem;
