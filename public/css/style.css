@@ -156,6 +156,7 @@ html{
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    overflow-x: hidden;
 }
 .container .container-left .check-box .check{
     min-width: 40px; min-height: 40px;
