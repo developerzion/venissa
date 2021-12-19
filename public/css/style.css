@@ -200,13 +200,14 @@ html{
     gap: 1.5rem;    
 }
 .tool-box .box{
-    flex: 1 1 15rem;
+    flex: 1 1 20rem;
     text-align: center;   
-    background: #fff; 
+    /* background: #fff;  */
     padding: 3rem 2rem;
-    border-radius: 3rem;
-    outline-offset: -1rem;
-    outline: .2rem solid var(--site-color);
+    border-radius: 1rem;
+    /* outline-offset: -1rem; */
+    /* outline: .2rem solid var(--site-color); */
+    color: #fff;
 }
 .tool-box .box:hover{
     outline-offset: 0rem;
@@ -221,14 +222,23 @@ html{
     color: #fff;
     margin-bottom: 2rem; 
 }
+.tool-box .box .color .fa{
+    font-size: 4rem;
+}
 .default{
     background: var(--site-color);
 }
 .orange{
-    background: #fab005;
+    background: #ffc84d;
+}
+.purple{
+    background: #654287;
+}
+.lightgreen{
+    background: #4d8dff;
 }
 .red{
-    background: #f03e3d;
+    background: #ff7b5b;
 }
 .blue{
     background: #4dadf7;
