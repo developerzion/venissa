@@ -5,16 +5,6 @@ import 'aos/dist/aos.css';
 
 
 import logo from "../images/logo.png"
-// import banner from "../images/banner.jpg"
-// import professional from "../images/professional.png"
-// import product from "../images/product.png"
-// import marketers from "../images/marketers.png"
-// import one from "../images/1.png"
-// import two from "../images/2.png"
-// import three from "../images/3.png"
-// import four from "../images/4.png"
-// import five from "../images/5.png"
-
 
 const Home =()=>{
 
@@ -210,23 +200,23 @@ const Home =()=>{
                 </div>
                 
                 <div className="tool-box">
-                    <div data-aos="fade-right" className="box lightgreen">
-                        <center><div className="color"> <span className="fa fa-compass"></span></div></center>
+                    <div data-aos="fade-right" className="box purple">
+                        <center><div className="color"> <span className="fa fa-apple-alt"></span></div></center>
                         <span className="title">First click tests</span>
                         <p className="text">While most people enjoy casino gambling</p>
                     </div>
-                    <div data-aos="fade-right" className="box orange">
-                        <center><div className="color"> <span className="fa fa-gamepad"></span></div></center>
+                    <div data-aos="fade-right" className="box red">
+                        <center><div className="color"> <span className="fa fa-coffee"></span></div></center>
                         <span className="title">Design surveys</span>
                         <p className="text">Sports betting, lottery and bingo playing for the fun</p>
                     </div>
-                    <div data-aos="fade-right" className="box red">
-                        <center><div className="color"> <span className="fa fa-pen-alt"></span></div></center>
+                    <div data-aos="fade-right" className="box orange">
+                        <center><div className="color"> <span className="fa fa-dice"></span></div></center>
                         <span className="title">Preference tests</span>
                         <p className="text">The Myspace page defines the individual.</p>
                     </div>
-                    <div data-aos="fade-right" className="box purple">
-                        <center><div className="color"> <span className="fa fa-clock"></span></div></center>
+                    <div data-aos="fade-right" className="box blue">
+                        <center><div className="color"> <span className="fa fa-grin"></span></div></center>
                         <span className="title">Five second tests</span>
                         <p className="text">Personal choices and the overall personality of the person. </p>
                     </div>
