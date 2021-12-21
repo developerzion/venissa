@@ -7,8 +7,7 @@ import "animate.css/animate.min.css";
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 
-import logo from "../images/logo.png"
-
+import Header from "./header";
 const Home =()=>{
 
     React.useEffect(() => {
@@ -17,38 +16,8 @@ const Home =()=>{
 
     return (
         <div>
-            <div className="header">
-                
-                {/* Div logo */}
-                <span className="logo">
-                    <Link to="/">
-                        <img src={logo} alt="Productly logo" />
-                        Toolstack
-                    </Link>
-                </span>
-                {/* End div logo  */}
-
-                {/* Div menu  */}
-                <div className="navbar">
-                    <Link to="">Home</Link>
-                    <Link to="">Products</Link>
-                    <Link to="">Customers</Link>
-                    <Link to="">Pricing</Link>
-                    <Link to="">Resources</Link>
-                    <Link to="">Sign In</Link>
-                    <Link to="">Sign Up</Link>                   
-
-                </div>  
-
-                <div className="mobilenav">
-                    <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="fa fa-bars"></span>
-                    <span className="fa fa-lock"></span>
-                </div>  
-
-                {/* End div menu  */}
-
-            </div>
-
+            
+            <Header/>
             <section id="banner" className="pad">
 
                 <div className="container bd-grid">
