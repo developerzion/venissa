@@ -349,6 +349,7 @@ html{
     align-items: center;
     margin: 2rem 4rem;
     height: 4rem;
+    border: 1px solid rgb(134, 130, 130);
 }
 .container-login .login .login-form .login-field img{
     width: 1.5rem;
@@ -440,8 +441,12 @@ html{
         margin: 2rem 2rem;
         height: 4.5rem;
     }
-    
-    
+       
 }
 
+@media (max-width: 580px){
+    .container-login .login{     
+        box-shadow: none;
+    }
+}
 

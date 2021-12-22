@@ -22,11 +22,11 @@ const Login =()=>{
 
                         <div className="login-field">
                             <img src={user} alt="user" />
-                            <input type="text" placeholder="Enter your username" />
+                            <input type="text" placeholder="Enter your username" required=""/>
                         </div>
                         <div className="login-field">
                             <img src={password} alt="password" />
-                            <input type="password" placeholder="Password" />
+                            <input type="password" placeholder="Password" required="" />
                         </div>
 
                         <div className="forgot-password">
