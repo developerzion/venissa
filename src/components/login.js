@@ -5,14 +5,24 @@ import Header from "./header"
 
 import user from '../images/user.png'
 import password from '../images/lock.png'
+import img from '../images/log.svg';
 
 const Login =()=>{
     return(
         <div>
             <Header/>
+            
+
             <div className="container-login">
 
+           
+
                 <div className="login">
+                    
+                    <div className="log-header">                    
+                        <img src={img} alt="Log"/>
+                    </div>
+
                     <div className="login-text">
                         <h1>Welcome Back</h1>
                         <h3>Login to your existing account</h3>

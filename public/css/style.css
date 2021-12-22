@@ -331,7 +331,15 @@ html{
     height: 40rem;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+}
+.container-login .login .log-header{
+    text-align: center;
+}
+.container-login .login .log-header img{
+    width: 200px;
+    background-position: center;
+    background-size: cover;
 }
 .container-login .login .login-text{
     text-align: center;
@@ -349,6 +357,7 @@ html{
     align-items: center;
     margin: 2rem 4rem;
     height: 4rem;
+    background: #fff;;
     border: 1px solid rgb(134, 130, 130);
 }
 .container-login .login .login-form .login-field img{
