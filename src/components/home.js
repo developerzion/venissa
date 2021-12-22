@@ -569,7 +569,7 @@ const Home =()=>{
                     marginTop:50,
                     textAlign:"center"
                 }} 
-                className="seperator">
+                className="">
                     <p style={{margin:"1rem 0",fontSize:"1rem",fontWeight:500,lineHeight:"2rem"}}>&copy; Copywright 2021. Developed by <a href="https://github.com/developerzion" target="_blank" rel="noreferrer" >Developerzion.</a>  Inspired by Productly</p>
                 </div>
 
