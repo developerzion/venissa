@@ -7,6 +7,11 @@ import "animate.css/animate.min.css";
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 
+import strategy1 from '../images/strategy1.jpg'
+import strategy2 from '../images/strategy2.jpg'
+import strategy3 from '../images/strategy3.jpg'
+
+
 import Header from "./header";
 const Home =()=>{
 
@@ -468,10 +473,6 @@ const Home =()=>{
                             </g>
                             </g>
                         </svg>
-
-                        
-
-                        {/* <img className="trimimage" src={marketers} alt="Marketers" /> */}
                     </div>
                 </div>                
 
@@ -480,19 +481,49 @@ const Home =()=>{
 
             <section id="hero" className="pad">
                 {/* <img className="five" src={five} alt="five"/>
-                <img className="four" src={four} alt="four"/> */}
-                
+                <img className="four" src={four} alt="four"/> */}                
                 <div className="hero-container">
                     <h1>Need a super hero?</h1>
                     <p>Do you require some help for your project: Conception workshop, <br/>prototyping, marketing strategy, landing page, Ux/UI?</p>
                     <div className="expert">
                         <center><Link to="" className="custom-button separate">Contact our expert</Link></center>
                     </div>
-                </div>      
-
+                </div> 
                 {/* <img src={three} alt="three"/>
                 <img src={two} alt="two"/>
-                <img src={one} alt="onw"/>           */}
+                <img src={one} alt="onw"/> */}
+            </section>
+
+            <section id="strategies" className="pad">
+
+                <div className="strategies-container">
+                    <h1>Marketing Strategies</h1>
+                    <p>Join 40,000+ other marketers and get proven strategies on email marketing</p>
+                </div>   
+
+                <div className="strategies-box">
+
+                    <div className="box">
+                        <img src={strategy1} alt="strat1"/>
+                        <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
+                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
+                    </div>
+                    <div className="box">
+                        <img src={strategy2} alt="strat2"/>
+                        <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
+                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
+                    </div>
+                    <div className="box">
+                        <img src={strategy3} alt="strat3"/>
+                        <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
+                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
+                    </div>
+                    
+
+                </div>             
 
             </section>
 
