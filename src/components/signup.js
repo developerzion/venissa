@@ -48,7 +48,7 @@ const Signup =()=>{
                                 <p className="signUp center">Already have an account! Click &nbsp;<Link to="/login"> Sign In</Link></p>
                             </div>
 
-                            <button className="custom-button-black center padTop">Sign In</button>
+                            <button className="custom-button-black center padTop">Register</button>
 
 
                         </form>
