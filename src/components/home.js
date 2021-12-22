@@ -31,7 +31,7 @@ const Home =()=>{
                         <h4>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</h4>
                         <div className="container-footer">
                             <Link to="" className="custom-button">Get Started</Link>
-                            <Link to="" className="custom-text"> <i className="fa fa-play"></i> Watch the video</Link>
+                            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=jQLht1t_1QE" className="custom-text"> <i className="fa fa-play"></i> Watch the video</a>
                         </div>
                     </div>
                     <div className="container-right">
