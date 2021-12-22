@@ -424,6 +424,9 @@ html{
     .header .mobilenav{
         display: inline-block;
     }
+    .header .mobilenav a{
+        color: var(--default-color);
+    }
     .header .navbar a:nth-last-child(-n+2){
         display: none;
     }
@@ -435,7 +438,10 @@ html{
     }
     .container-login .login .login-form .login-field{
         margin: 2rem 2rem;
+        height: 4.5rem;
     }
+    
+    
 }
 
 

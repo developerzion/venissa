@@ -11,7 +11,7 @@ const Login =()=>{
         <div>
             <Header/>
             <div className="container-login">
-                
+
                 <div className="login">
                     <div className="login-text">
                         <h1>Welcome Back</h1>
@@ -26,7 +26,7 @@ const Login =()=>{
                         </div>
                         <div className="login-field">
                             <img src={password} alt="password" />
-                            <input type="password" placeholder="%%%%%%%%%%%%" />
+                            <input type="password" placeholder="Password" />
                         </div>
 
                         <div className="forgot-password">
