@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import "animate.css/animate.min.css"; 
 // import ScrollAnimation from 'react-animate-on-scroll';
 
-
+import logo from "../images/logo.png";
 import strategy1 from '../images/strategy1.jpg'
 import strategy2 from '../images/strategy2.jpg'
 import strategy3 from '../images/strategy3.jpg'
@@ -520,11 +520,50 @@ const Home =()=>{
                         <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
                         <Link to="/"><h3>Increasing Prosperity With Positive Thinking</h3></Link>
                         <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
-                    </div>
-                    
-
+                    </div>    
                 </div>             
 
+            </section>
+
+            <section id="footer" className="padfooter">
+                <div className="seperator"></div>
+                <div className="footer-container">
+
+                    <div className="box">
+                        <span className="logo">
+                            <Link to="/">
+                                <img src={logo} alt="Productly logo" />
+                                Toolstack
+                            </Link>
+                        </span>
+                    </div>
+                    <div className="box">
+                        <h3>Quick Links</h3>
+                        <div className="links">
+                            <Link to="/">About Us</Link>
+                            <Link to="/">Blog</Link>
+                            <Link to="/">Contact</Link>
+                            <Link to="/">FAQ</Link>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <h3>Legal Stuff</h3>
+                        <div className="links">
+                            <Link to="/">Disclaimer</Link>
+                            <Link to="/">Financing</Link>
+                            <Link to="/">Privacy Policy</Link>
+                            <Link to="/">Terms of Service</Link>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <h3>knowing you're always on the best energy deal. </h3>
+                        <form className="footer-sign">
+                            <input type="text" placeholder="Enter your phone number" />
+                            <button>Sign up Now</button>
+                        </form>
+                    </div>
+
+                </div>
             </section>
 
             

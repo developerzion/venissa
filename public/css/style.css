@@ -72,6 +72,10 @@ html{
     padding: 3rem 9%;
     margin-top: 10rem;
 }
+.padfooter{
+    padding: 3rem 9%;
+    margin-top: 6rem;
+}
 .banner-image{
     width: 100%;
 }
@@ -99,7 +103,6 @@ html{
 }
 .header .logo a{
     font-size: 2.5rem;
-    /* color: #173a56; */
     color: #000;
     display: flex;
     align-items: center;
@@ -489,11 +492,70 @@ html{
     color: var(--site-color);
 }
 .strategies-box .box p{
-    /* margin-top: 1rem; */
     font-size: 1.2rem;
     font-weight: 400;
     text-align: justify;
     line-height: 2rem;
+}
+
+.seperator{
+    border-top: 1.5px solid #e2eaf4;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.footer-container .box{
+    flex: 1 1 20rem;
+}
+.footer-sign input{
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    border-radius: .5rem;
+    border: 2px solid #e2eaf4;;
+    padding: 1rem 0 1rem 1rem;
+}
+.footer-sign button{
+    padding: 1rem 2rem;
+    background: var(--site-color);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+.footer-container .box h3{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+.footer-container .box .links a{
+    display: block;
+    padding: .6rem 0;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer-container .box .links a:hover{
+    color: var(--site-color);
+}
+.footer-container .box .logo a{
+    font-size: 2.5rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer-container .box .logo a img{
+    margin-right: .5rem;
+    width: 30px;
+}
+.footer-container .box .logo a:hover img{
+    transform: rotate(360deg);
 }
 
 @media (max-width: 1223px){
