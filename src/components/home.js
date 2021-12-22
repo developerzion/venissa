@@ -506,19 +506,19 @@ const Home =()=>{
                     <div className="box">
                         <img src={strategy1} alt="strat1"/>
                         <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
-                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <Link to="/"><h3>Increasing Prosperity With Positive Thinking</h3></Link>
                         <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
                     </div>
                     <div className="box">
                         <img src={strategy2} alt="strat2"/>
                         <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
-                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <Link to="/"><h3>Increasing Prosperity With Positive Thinking</h3></Link>
                         <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
                     </div>
                     <div className="box">
                         <img src={strategy3} alt="strat3"/>
                         <span className="desc">By <b>Makanjuola Martins</b> |  22 December 2021</span>
-                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                        <Link to="/"><h3>Increasing Prosperity With Positive Thinking</h3></Link>
                         <p>Find strategy stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.</p>
                     </div>
                     
