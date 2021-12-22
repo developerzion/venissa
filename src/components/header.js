@@ -25,7 +25,7 @@ const Header =()=>{
                 <Link to="">Pricing</Link>
                 <Link to="">Resources</Link>
                 <Link to="/login">Sign In</Link>
-                <Link to="">Sign Up</Link>                   
+                <Link to="/signup">Sign Up</Link>                   
 
             </div>  
 

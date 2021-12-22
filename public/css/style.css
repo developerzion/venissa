@@ -45,6 +45,9 @@ html{
 .padTop{
     margin-top: 2rem;
 }
+.radius{
+    border-radius: 50%;
+}
 
 .custom-button{
     background: var(--site-color);

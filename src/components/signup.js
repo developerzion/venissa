@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 import user from '../images/user.png'
 import password from '../images/lock.png'
-import img from '../images/log.svg';
+import img from '../images/signup.svg';
 
-const Login =()=>{
+const Signup =()=>{
     return(
         <div>
             <section className="section">
@@ -21,7 +21,7 @@ const Login =()=>{
                     <div className="login">
 
                         <div className="log-header">                    
-                            <img src={img} alt="Log"/>
+                            <img className="radius" src={img} alt="signup"/>
                         </div>
 
                         <div className="login-text">
@@ -30,19 +30,22 @@ const Login =()=>{
                         </div>
 
                         <form className="login-form">
-
+                           
                             <div className="login-field">
                                 <img src={user} alt="user" />
                                 <input type="text" placeholder="Enter your username" required=""/>
                             </div>
                             <div className="login-field">
+                                <img src={password} alt="user" />
+                                <input type="password" placeholder="Enter your password" required=""/>
+                            </div>
+                            <div className="login-field">
                                 <img src={password} alt="password" />
-                                <input type="password" placeholder="Password" required="" />
+                                <input type="password" placeholder="Confrim password" required="" />
                             </div>
 
                             <div className="forgot-password">
-                                <p className="signUp center">Don’t have an account?&nbsp;<Link to="/signup"> Sign Up</Link></p>
-                                <Link to="">Forgot Password?</Link> 
+                                <p className="signUp center">Already have an account! Click &nbsp;<Link to="/login"> Sign In</Link></p>
                             </div>
 
                             <button className="custom-button-black center padTop">Sign In</button>
@@ -59,4 +62,4 @@ const Login =()=>{
     )
 }
 
-export default Login
+export default Signup
