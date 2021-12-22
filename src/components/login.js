@@ -42,7 +42,7 @@ const Login =()=>{
 
                             <div className="forgot-password">
                                 <p className="signUp center">Don’t have an account?&nbsp;<Link to="/signup"> Sign Up</Link></p>
-                                <Link to="">Forgot Password?</Link> 
+                                {/* <Link to="">Forgot Password?</Link>  */}
                             </div>
 
                             <button className="custom-button-black center padTop">Sign In</button>
