@@ -45,7 +45,7 @@ const Login =()=>{
                                 <Link to="">Forgot Password?</Link> 
                             </div>
 
-                            <button className="custom-button center padTop">Sign In</button>
+                            <button className="custom-button-black center padTop">Sign In</button>
 
 
                         </form>
