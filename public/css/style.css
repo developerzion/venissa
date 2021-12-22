@@ -349,7 +349,7 @@ html{
 
 .container-login .login{
     position: absolute;
-    top: 46%; left: 50%;
+    top: 45%; left: 50%;
     width: 40rem;
     height: 40rem;
     transform: translate(-50%, -50%);

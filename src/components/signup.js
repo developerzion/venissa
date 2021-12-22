@@ -25,8 +25,8 @@ const Signup =()=>{
                         </div>
 
                         <div className="login-text">
-                            <h1>Welcome Back</h1>
-                            <h3>Login to your existing account</h3>
+                            <h1>Welcome to Toolstack</h1>
+                            <h3>Create a new account</h3>
                         </div>
 
                         <form className="login-form">
