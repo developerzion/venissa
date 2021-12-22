@@ -12,6 +12,8 @@ const Login =()=>{
         <div>
             <section className="section">
                 {/* <Header/> */}
+
+                <Link to="/"><span className="fa fa-chevron-left"></span></Link>
             
 
                 <div className="container-login">           
@@ -39,12 +41,12 @@ const Login =()=>{
                             </div>
 
                             <div className="forgot-password">
+                                <p className="signUp center">Don’t have an account?&nbsp;<Link to=""> Sign Up</Link></p>
                                 <Link to="">Forgot Password?</Link> 
                             </div>
 
                             <button className="custom-button center padTop">Sign In</button>
 
-                            <p className="signUp center">Don’t have an account?&nbsp;<Link to=""> Sign Up</Link></p>
 
                         </form>
                     </div>
