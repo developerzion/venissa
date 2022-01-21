@@ -1,0 +1,24 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 1rem ;
+    padding-bottom: 3rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-right: 2px solid #EAEAEA;
+    width: 30px;
+    align-items: center;
+}
+.sidebar .logo img{
+    width: 35px;
+}
+.sidebar .icons i{
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    color: #918f8f;
+
+}

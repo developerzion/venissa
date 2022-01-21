@@ -6,15 +6,15 @@
     Website: www.devparse.com 
 ============================================ */
 
-import React from "react";
-import reactdom from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react'
+import reactDom from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
-import App from "./components/app"
+import Myroutes from './components/routes'
 
-reactdom.render(
+reactDom.render(
     <BrowserRouter>
-        <App/>
+        <Myroutes/>
     </BrowserRouter>,
     document.querySelector("#root")
 )

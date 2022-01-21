@@ -1,0 +1,59 @@
+.mainBody{
+    margin-left: 82px;
+    padding-top: 3rem;
+    /* background: red; */
+}
+.bodyContainer{    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 3rem;
+}
+.boxText h5{
+    color: #383838;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.boxText h1{
+    color: #383838;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.boxText h1 span{
+    color: #F1214F;
+}
+.boxText h2{
+    color: #383838;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.boxText h3{
+    color: #383838;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.boxText a{
+    padding: 1.2rem 2.3rem;
+    background: #F1214F;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 3rem;
+    color: #fff;
+}
+.boxImage img{
+    width: 76%;
+}
+
+.contact{
+    display: flex;
+    gap: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+}
+.contact .box{
+    border-right: 2px solid #EAEAEA;
+    width: 17rem;
+}
+.contact .box h3{
+    margin-bottom: .4rem;
+}
