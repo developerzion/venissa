@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;    
-    gap: 3rem;
+    gap: 1rem;
 }
 .boxText h5{
     color: #383838;
@@ -41,20 +41,21 @@
     color: #fff;
 }
 .boxImage img{
-    width: 76%;
+    width: 100%;
 }
 
 .contact{
+    position: absolute;
+    bottom: 3rem;
     display: flex;
     gap: 2rem;
-    margin-left: 7rem;
-    margin-bottom: 3rem;
 }
 .contact .box{
     border-right: 2px solid #EAEAEA;
-    width: 17rem;
+    width: 15em;
 }
 .contact .box h3{
     margin-bottom: .4rem;
     color: #383838;
+    font-size: 1.2rem;
 }
