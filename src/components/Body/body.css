@@ -1,14 +1,14 @@
 .mainBody{
     margin-left: 82px;
     padding-top: 3rem;
-    /* background: red; */
+    padding: 3.5rem 6rem 0 6rem;
 }
 .bodyContainer{    
     display: flex;
     align-items: center;
-    justify-content: center;    
     gap: 1rem;
 }
+
 .boxText h5{
     color: #383838;
     font-size: 1.4rem;
@@ -41,7 +41,7 @@
     color: #fff;
 }
 .boxImage img{
-    width: 100%;
+    width: 120%;
 }
 
 .contact{
@@ -58,4 +58,44 @@
     margin-bottom: .4rem;
     color: #383838;
     font-size: 1.2rem;
+}
+
+@media (max-width: 1000px){
+    .bodyContainer{  
+        margin-top: 3rem;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .mainBody{
+        margin-left: 0;
+        padding: 3.5rem 2rem 0 2rem;
+    }
+    .boxImage img{
+        width: 100%;
+    }
+    
+}
+
+
+@media(max-width:550px){
+    .boxText h1{
+        margin-top: 1.5rem;
+        line-height: 4.5rem;
+    }
+    .boxText h2{
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .boxText h3{
+        color: #383838;
+        font-size: 1.2rem;
+        margin-top: .3rem;
+        font-weight: 400;
+    }
 }

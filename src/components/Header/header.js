@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import './header.css'
 
+import bars from './images/bars.png'
+
 
 const Header =()=>{
     return (
@@ -18,6 +20,7 @@ const Header =()=>{
 
                 <div className="call">
                     <a href="https://api.whatsapp.com/send/?phone=2347036195368&text=Hello+Sam&app_absent=0"  target="_blank" rel="noreferrer"><span className="fa fa-phone"></span> Schedule a Call</a>
+                    <img src={bars} alt="bars" />
                 </div>
             </div>            
         </div>

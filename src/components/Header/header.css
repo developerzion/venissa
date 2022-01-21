@@ -23,7 +23,34 @@
 .headerContainer .navbar a:hover{
     border-bottom: 2px solid #000000;
 }
-
+.headerContainer .call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .headerContainer .call a{
     color: #F1214F;
+}
+.headerContainer .call img{
+    width: 32px;
+}
+.headerContainer .call img{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    .header .headerContainer .navbar a{
+        display: none;
+    }
+    .headerContainer .call img{
+        display: inline-block;
+    }
+}
+@media(max-width:550px){
+    .header{
+        margin-left: 0;
+        padding: 2.1rem 2rem;
+    }
+   
 }

@@ -22,3 +22,8 @@
     color: #918f8f;
 
 }
+@media (max-width: 800px){
+    .sidebar{
+        display: none;
+    }
+}
