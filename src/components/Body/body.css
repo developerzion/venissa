@@ -98,4 +98,7 @@
         margin-top: .3rem;
         font-weight: 400;
     }
+    .boxText a{
+        margin-top: 2rem;
+    }
 }
